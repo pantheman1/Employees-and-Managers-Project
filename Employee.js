@@ -8,6 +8,10 @@ class Employee {
     bonus(amount) {
         return this.salary * amount;
     }
+
+    getSal(){
+        return this.salary;
+    }
 }
 
-module.exports.Employee = Employee
+module.exports.Employee = Employee;
